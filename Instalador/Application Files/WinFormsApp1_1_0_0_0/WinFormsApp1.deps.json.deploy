@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WinFormsApp1/1.0.0": {
+        "dependencies": {
+          "Krypton.Ribbon": "95.25.6.174",
+          "Krypton.Toolkit": "95.25.6.174"
+        },
+        "runtime": {
+          "WinFormsApp1.dll": {}
+        }
+      },
+      "Krypton.Ribbon/95.25.6.174": {
+        "dependencies": {
+          "Krypton.Toolkit": "95.25.6.174"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Ribbon.dll": {
+            "assemblyVersion": "95.25.6.174",
+            "fileVersion": "95.25.6.174"
+          }
+        }
+      },
+      "Krypton.Toolkit/95.25.6.174": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Toolkit.dll": {
+            "assemblyVersion": "95.25.6.174",
+            "fileVersion": "95.25.6.174"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Krypton.Ribbon/95.25.6.174": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H2KctEueP0m/fYQq0e3mDZf0yauXRQZqCrzml5SOtfJgmP0cbbrltZLnLarRvBPImXgwROGydvvGzvgYfrZiSw==",
+      "path": "krypton.ribbon/95.25.6.174",
+      "hashPath": "krypton.ribbon.95.25.6.174.nupkg.sha512"
+    },
+    "Krypton.Toolkit/95.25.6.174": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eTMEp/UGtcLZzGA9Nl202WUM6SpkdXnQIJLXiMRKwthuuVSvH/vLQFy2J7PVrwU53rKOI69KQ8LGjZIUkrXJvg==",
+      "path": "krypton.toolkit/95.25.6.174",
+      "hashPath": "krypton.toolkit.95.25.6.174.nupkg.sha512"
+    }
+  }
+}
